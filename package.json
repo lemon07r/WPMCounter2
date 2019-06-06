@@ -9,7 +9,22 @@
   },
   "author": "lamim",
   "license": "ISC",
+  "iohook": {
+    "targets": [
+      "node-72",
+      "electron-70"
+    ],
+    "platforms": [
+      "win32"
+    ],
+    "arches": [
+      "x64"
+    ]
+  },
   "devDependencies": {
     "electron": "^5.0.2"
+  },
+  "dependencies": {
+    "iohook": "^0.4.6"
   }
 }
